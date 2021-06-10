@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+flask-script = "*"
+flask = "==1.1.2"
+flask-migrate = "==2.7.0"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.9"
